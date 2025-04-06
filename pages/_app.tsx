@@ -65,6 +65,7 @@ export default function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <meta name='referrer' content='strict-origin' />
         <meta name='title' content={title} />
+        <meta name='robots' content='noindex,nofollow' />
         <meta name='description' content={description} />
         <link rel='shortcut icon' href='/favicon.ico' />
         <link rel='icon' href='/favicon.ico' />
